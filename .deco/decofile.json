@@ -1,0 +1,353 @@
+{
+  "Faq - default": {
+    "title": "FAQs",
+    "__resolveType": "site/sections/Faq.tsx"
+  },
+  "Groovy Vibes": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FDE5BE",
+      "primary": "#FF6502",
+      "secondary": "#FEC902",
+      "tertiary": "#FF91B2",
+      "neutral": "#9934A6",
+      "info": "#2e72d2",
+      "error": "#d82c0d",
+      "warning": "#ffc453",
+      "success": "#008060"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Roboto"
+        }
+      ]
+    }
+  },
+  "Neutral": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#ffffff",
+      "primary": "#171717",
+      "secondary": "#c7c7c7",
+      "tertiary": "#404040",
+      "neutral": "#333333",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Albert Sans"
+        }
+      ]
+    }
+  },
+  "Preview /sections/Hero.tsx": {
+    "__resolveType": "site/sections/Hero.tsx"
+  },
+  "Serene Coastline": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.8rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#cceae3",
+      "primary": "#00767F",
+      "secondary": "#9BD8E7",
+      "tertiary": "#004247",
+      "neutral": "#E2E2E2",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shadows Into Light"
+        }
+      ]
+    }
+  },
+  "Sunset Glow": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#FFF7D2",
+      "primary": "#A73C5A",
+      "secondary": "#FFBC55",
+      "tertiary": "#FF9900",
+      "neutral": "#4F3000",
+      "success": "#008060",
+      "warning": "#FFC453",
+      "error": "#D82C0D",
+      "info": "#2E72D2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Special Elite"
+        }
+      ]
+    }
+  },
+  "Urban Chic": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mainColors": {
+      "base-100": "#F8F9FD",
+      "primary": "#3141AC",
+      "secondary": "#BADFED",
+      "tertiary": "#DECD8F",
+      "neutral": "#FBF5F1",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Poiret One"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "__resolveType": "decohub/apps/blog.ts"
+  },
+  "decohub": {
+    "__resolveType": "site/apps/decohub.ts",
+    "apps": []
+  },
+  "hero": {
+    "__resolveType": "site/sections/Hero.tsx"
+  },
+  "htmx": {
+    "__resolveType": "decohub/apps/htmx.ts",
+    "version": "1.9.11"
+  },
+  "pages-home-5afd25174424": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx"
+      },
+      {
+        "__resolveType": "site/sections/MainPost.tsx"
+      },
+      {
+        "__resolveType": "site/sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "site": {
+    "__resolveType": "site/apps/site.ts",
+    "routes": [
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      }
+    ],
+    "seo": {
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s",
+      "type": "website"
+    },
+    "global": [
+      {
+        "__resolveType": "htmx/sections/htmx.tsx"
+      }
+    ],
+    "caching": {
+      "directives": []
+    },
+    "firstByteThresholdMS": false,
+    "theme": {
+      "__resolveType": "Groovy Vibes"
+    }
+  },
+  "pages-Home-409003": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/062d7c7c-a0d3-4b9b-8382-75aba3ced9a9"
+        }
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Tudo sobre fisioterapia</p>",
+        "description": "Milena Ferrer"
+      },
+      {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "cta": {
+          "text": "Últimos posts"
+        },
+        "posts": [
+          {
+            "tags": [],
+            "title": "Desvendando o Poder da Fisioterapia no Manejo da Dor Crônica",
+            "author": "Milena Ferrer",
+            "excerpt": "Descubra o papel transformador da fisioterapia no manejo da dor crônica.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/04985f44-6006-4e9e-9f92-9bcb70c4f8a8",
+            "date": "02/04/2024",
+            "readingTime": "5min"
+          },
+          {
+            "tags": [],
+            "title": "Fisioterapia e Saúde Mental: Uma Conexão Vital",
+            "author": "Milena Ferrer",
+            "excerpt": "Este post examina a conexão vital entre fisioterapia e saúde mental, destacando como os tratamentos físicos podem ter impactos profundos no bem-estar emocional e psicológico. ",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/04985f44-6006-4e9e-9f92-9bcb70c4f8a8",
+            "date": "02/04/2024",
+            "readingTime": "7min"
+          },
+          {
+            "tags": [],
+            "title": "Inovações na Fisioterapia: Tecnologias que Estão Moldando o Futuro",
+            "author": "Milena Ferrer",
+            "excerpt": "Entre no mundo das inovações em fisioterapia com este post, que apresenta as tecnologias emergentes e como elas estão revolucionando o tratamento e a recuperação.",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/04985f44-6006-4e9e-9f92-9bcb70c4f8a8",
+            "date": "02/04/2024",
+            "readingTime": "3min"
+          }
+        ]
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx",
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/5fa57bf9-000b-43c7-a256-28a3b0f40cec"
+        }
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "collections/blog/authors/940f11c68799": {
+    "name": "collections/blog/authors/940f11c68799",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Milena Ferrer",
+      "email": "milena.ferrer@outlook.com.br"
+    }
+  },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/d1eab885-5f5d-4964-85a8-27ecb00106be"
+    }
+  },
+  "collections/blog/posts/27374e627974": {
+    "name": "collections/blog/posts/27374e627974",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "title": "Post Teste",
+      "subtitle": "New post",
+      "date": "2024-04-02",
+      "slug": "new-post",
+      "content": "<p>It is a content of a blog post</p>"
+    }
+  },
+  "Preview /sections/Footer.tsx": {
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/dc2f5b63-e2ad-403e-a195-ee7b4b7958d2"
+    }
+  }
+}
