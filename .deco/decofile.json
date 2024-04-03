@@ -77,6 +77,25 @@
       ]
     }
   },
+  "Preview /sections/Footer.tsx": {
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/dc2f5b63-e2ad-403e-a195-ee7b4b7958d2"
+    }
+  },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/d1eab885-5f5d-4964-85a8-27ecb00106be"
+    }
+  },
   "Preview /sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx"
   },
@@ -194,6 +213,26 @@
   "blog": {
     "__resolveType": "decohub/apps/blog.ts"
   },
+  "collections/blog/authors/940f11c68799": {
+    "name": "collections/blog/authors/940f11c68799",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Milena Ferrer",
+      "email": "milena.ferrer@outlook.com.br"
+    }
+  },
+  "collections/blog/posts/27374e627974": {
+    "name": "collections/blog/posts/27374e627974",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "title": "Post Teste",
+      "subtitle": "New post",
+      "date": "2024-04-02",
+      "slug": "new-post",
+      "content": "<p>It is a content of a blog post</p>"
+    }
+  },
   "decohub": {
     "__resolveType": "site/apps/decohub.ts",
     "apps": []
@@ -204,53 +243,6 @@
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
-  },
-  "pages-home-5afd25174424": {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "site/sections/Header.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx"
-      },
-      {
-        "__resolveType": "site/sections/MainPost.tsx"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "site": {
-    "__resolveType": "site/apps/site.ts",
-    "routes": [
-      {
-        "__resolveType": "website/loaders/pages.ts"
-      }
-    ],
-    "seo": {
-      "titleTemplate": "%s",
-      "descriptionTemplate": "%s",
-      "type": "website"
-    },
-    "global": [
-      {
-        "__resolveType": "htmx/sections/htmx.tsx"
-      }
-    ],
-    "caching": {
-      "directives": []
-    },
-    "firstByteThresholdMS": false,
-    "theme": {
-      "__resolveType": "Groovy Vibes"
-    }
   },
   "pages-Home-409003": {
     "name": "Home",
@@ -311,43 +303,52 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
-  "collections/blog/authors/940f11c68799": {
-    "name": "collections/blog/authors/940f11c68799",
-    "__resolveType": "blog/loaders/Author.ts",
-    "author": {
-      "name": "Milena Ferrer",
-      "email": "milena.ferrer@outlook.com.br"
-    }
+  "pages-home-5afd25174424": {
+    "name": "Home",
+    "path": "/",
+    "sections": [
+      {
+        "__resolveType": "site/sections/Header.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx"
+      },
+      {
+        "__resolveType": "site/sections/MainPost.tsx"
+      },
+      {
+        "__resolveType": "site/sections/BlogPosts.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   },
-  "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx",
-    "navigation": {
-      "links": [],
-      "buttons": []
+  "site": {
+    "__resolveType": "site/apps/site.ts",
+    "routes": [
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      }
+    ],
+    "seo": {
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s",
+      "type": "website",
+      "title": "Fisioterapia - Milena Ferrer"
     },
-    "logo": {
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/d1eab885-5f5d-4964-85a8-27ecb00106be"
-    }
-  },
-  "collections/blog/posts/27374e627974": {
-    "name": "collections/blog/posts/27374e627974",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [],
-      "title": "Post Teste",
-      "subtitle": "New post",
-      "date": "2024-04-02",
-      "slug": "new-post",
-      "content": "<p>It is a content of a blog post</p>"
-    }
-  },
-  "Preview /sections/Footer.tsx": {
-    "__resolveType": "site/sections/Footer.tsx",
-    "links": [],
-    "bottomLinks": [],
-    "social": [],
-    "logo": {
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5292/dc2f5b63-e2ad-403e-a195-ee7b4b7958d2"
+    "global": [
+      {
+        "__resolveType": "htmx/sections/htmx.tsx"
+      }
+    ],
+    "caching": {
+      "directives": []
+    },
+    "firstByteThresholdMS": false,
+    "theme": {
+      "__resolveType": "Groovy Vibes"
     }
   }
 }
